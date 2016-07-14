@@ -1,11 +1,8 @@
-#navbar {
-  background-color: #0f0f0f;
+#main_navbar {
   height: 45px;
   position: fixed;
-  border-style: solid;
-  border: 5px groove silver;
   top : 0px;
-  width: 100%;
+  width: 100%
   padding: 10px 5px 5px 15px; /* top right bottom left*/
 }
 
@@ -14,6 +11,7 @@
 }
 
 body {
-  padding-top: 20px; /*prvent navbar from blocking text*/
+  position: relative; /* used for scrollspy */
+  padding-top: 20px;
 }
 

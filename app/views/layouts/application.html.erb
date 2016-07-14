@@ -6,12 +6,7 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
-  <div id='navbar'>
-    <%= link_to "Home", index_path, id: "navlink"%>
-  </div>
 
 <%= yield %>
 
-</body>
 </html>

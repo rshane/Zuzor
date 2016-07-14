@@ -1,5 +1,31 @@
 <!DOCTYPE html>
-<h1> Welcometo ZUZOR!!!</h1>
-<% 40.times do |i| %>
-  <p> This is a new paragraph!</p>
+<h1> Welcome to ZUZOR!!!</h1>
+<body data-spy="scroll" data-target=".navbar">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=#main_navbar">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+  <nav class="navbar navbar-inverse navbar-fixed-top" id="main_navbar">
+    <ul class="nav nav-tabs" role="tablist">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+ </nav>
+<div id="home">
+  <% 40.times do |i| %>
+    <p> This is a new home paragraph!</p>
   <%end%>
+</div>
+<div id="about">
+  <% 40.times do |i| %>
+    <p> This is a new ABOUT paragraph!</p>
+  <%end%>
+</div>
+</body>
