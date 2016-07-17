@@ -1,17 +1,17 @@
-#main_navbar {
-  height: 45px;
-  position: fixed;
-  top : 0px;
-  width: 100%
-  padding: 10px 5px 5px 15px; /* top right bottom left*/
+#mainNavbar {
+  background-color: #FFFFFF;
 }
 
-#navlink {
-  font-size:20px;
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+.navbar {
+  text-align: center;
 }
 
 body {
   position: relative; /* used for scrollspy */
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
